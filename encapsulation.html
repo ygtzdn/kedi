@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Encapsulation</title>
+
+<!------------------------------ Tasarım ve CSS ------------------------------>
+<style>
+	* {
+		text-decoration: none;
+		margin: auto;
+	}
+
+	.nav{ width:100%; margin:0; padding:20px 0; color:#C0BAB6;text-align: center;border: 1px solid black;}
+	nav {width: 1100px}
+	nav ul{padding:0 20px;}
+	nav li{display:inline; margin-right:25px; text-transform:uppercase;border: 1px solid black;padding: 5px;}
+	nav li.last{margin-right:0;}
+	nav li a {color: black;display: inline-block;}
+	nav .a{transition: all 0.3s ease}
+	nav .a:hover{background-color: grey;}
+
+	.container {width: 1100px}
+</style>
+<!------------------------------ Tasarım ve CSS ------------------------------>
+
+</head>
+	<body>
+		<div class="nav">
+			<nav>
+				<ul>
+					<li class="a"><a href="whatisc++.html">What is C++</a></li>
+					<li class="a"><a href="objectsandclasses.html">Objects and Classes</a></li>
+					<li class="a"><a href="inheritance.html">Inheritance</a></li>
+					<li class="a"><a href="polymorphism.html">Polymorphism</a></li>
+					<li class="a"><a href="abstraction.html">Abstraction</a></li>
+					<li style="color: darkgrey;">Encapsulation</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="container">
+			<h2><br>
+                    Encapsulation
+                </h2>
+                <p><br>
+                    In normal terms Encapsulation is defined
+                    as wrapping up of data and information
+                    under a single unit. In Object Oriented
+                    Programming, Encapsulation is defined as
+                    binding together the data and the functions
+                    that manipulates them. Consider
+                    a real life example
+                    of encapsulation, in a company there are
+                    different sections like the accounts section,
+                    finance section, sales section etc. The finance
+                    section handles all the financial transactions
+                    and keep records of all the data related to
+                    finance.
+                    Similarly the sales section handles all the
+                    sales related activities and keep records of
+                    all the sales. Now there may arise a situation
+                    when for some reason an official from finance
+                    section needs all the data about sales in a
+                    particular
+                    month. In this case, he is not allowed to
+                    directly access the data of sales section.
+                    He will first have to contact some other
+                    officer in the sales section and then
+                    request him to
+                    give the particular data. This is what
+                    encapsulation is. Here the data of
+                    sales section and the
+                    employees that can manipulate them are
+                    wrapped under a single name “sales section”.
+                </p>
+
+                <p><br>
+                    Encapsulation also lead to data abstraction
+                    or hiding. As using encapsulation also hides
+                    the data. In the above example the data of
+                    any of the section like sales, finance or
+                    accounts is hidden from any other section.<br>
+                    In C++ encapsulation
+                    can be implemented using Class
+                    and access modifiers.
+                </p>
+		</div>
+	</body>
+</html>
